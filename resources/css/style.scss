@@ -15,14 +15,74 @@ body {
   font-family: "Inter", sans-serif;
 }
 
+.hero-section {
+  background-image: url("../images/hero-bg.png");
+}
 
 
+.brdr-theme-bg-blue {
+  padding: 4rem;
+  border-radius: 0 60px;
+background: $heritage;
+color: $white;
+box-shadow: 9px 8px 5.2px -3px rgba(0, 0, 0, 0.25);
 
+> * {
+    color: $white;
+  }
+  
+}
+
+.apply4-layer-card {
+  border-radius: 20px;
+background: #FFFFFE;
+box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.25);
+min-height: 8rem;
+display: flex;
+
+> * {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+> div:first-of-type {
+    background: $primary;
+    border-radius: 20px 0 0 20px;
+    justify-content: center;
+}
+
+> div:not(:first-of-type) {
+    flex-direction: column;
+    border-right: 1px solid #E0E0E0;
+    
+  }
+
+
+}
 
   
-  
-  
+  .info-card {
+    padding: 3rem;
+    border-radius: 7rem 0 7rem 0;
+background: #FFFFFE;
+box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.25);
+min-height: 16rem;
+display: flex;
+justify-content: center;
+align-items: center;
+  }
  
+
+  img.position-absolute.checkmark-icon {
+    top: -5rem;
+    left: -2rem;
+}
+
+.row.position-absolute.card-row-ab {
+    top: -7rem;
+}
   
   
  
