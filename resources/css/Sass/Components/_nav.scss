@@ -2,12 +2,21 @@
 
 
  .navbar {
-    background-color:$ink-blue;
+    background-color:$white;
   }
 
-  .primary-link {
-    color: $primary;
-    font-weight: 400 !important;
+  .primary-link{
+    color: $heritage !important;
+    font-weight: 600 !important;
+  }
+
+  .nav-link {
+    color: #0D2D65 !important; 
+font-family: "Open Sans";
+font-size: 13px;
+font-style: normal;
+font-weight: 700;
+line-height: 179%; /* 23.27px */
   }
 
   @media only screen and (max-width: $breakpoint-sm) {

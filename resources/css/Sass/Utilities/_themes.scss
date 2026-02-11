@@ -14,14 +14,33 @@ $primary-hover: #fee097;
 $inter: "Inter", sans-serif;
 
 .ink-blue {
-    color: $ink-blue
+    color: $ink-blue !important;
 }
 
-.heritage {
-    color: $heritage
+.text-heritage {
+    color: $heritage !important;
 }
-  
+ 
+.text-primary {
+    color: $primary !important;
+}
+
+
 
 .bg-lightgray {
     background: #F9F9F9;
 }
+
+.bg-heritage {
+    background: $heritage !important;
+}
+
+.bg-sky-blue {
+    background: $sky-blue !important;
+}   
+.bg-hero-blue {
+    background: $hero-blue !important;
+}   
+.bg-primary {
+    background: $primary !important;
+}   
