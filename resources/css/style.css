@@ -273,6 +273,16 @@ body {
   color: #ffffff;
 }
 
+.spacer {
+  display: none;
+}
+@media only screen and (min-width: 1400px) {
+  .spacer {
+    height: 8rem;
+    display: inline-block;
+  }
+}
+
 .apply4-layer-card {
   background: #FFFFFE;
   box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.25);
