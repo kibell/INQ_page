@@ -66,8 +66,8 @@ $font-size-7xl: 4rem; /*64px */
 
 .btn {
   padding: 0.6rem 0.9rem;
-  border-radius: 3px;
-  font-size: 15px;
+  border-radius: 10px;
+  font-size: 16px;
   font-weight: 700;
   cursor: pointer;
 }
@@ -166,7 +166,7 @@ footer.mobile {
 }
 
 .primary-link {
-  color: #0a3370 !important;
+  color: #ffffff !important;
   font-weight: 600 !important;
 }
 
@@ -259,6 +259,7 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  min-height: 500px;
 }
 
 .brdr-theme-bg-blue {
@@ -306,15 +307,14 @@ body {
     top: -2rem;
     border-radius: 20px;
     width: auto;
+    height: 170px;
   }
 }
 .apply4-layer-card > div:not(:first-of-type) {
   flex-direction: column;
   border-right: 1px solid #E0E0E0;
 }
-.apply4-layer-card > div:first-of-type {
-  background: #fdb913;
-  justify-content: center;
+.apply4-layer-card div:first-of-type {
   border-radius: 20px 0 0 20px;
 }
 .apply4-layer-card > div:last-of-type {
@@ -353,7 +353,7 @@ body {
   top: none;
   left: none;
 }
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 1400px) {
   .card-row-ab {
     position: absolute;
     top: -17rem;
@@ -571,6 +571,22 @@ img.position-absolute.checkmark-icon {
   margin-right: 1rem;
   -o-object-fit: cover;
   object-fit: cover;
+}
+
+.testimonial-image {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.p-head {
+  color: #FFFFFE;
+  font-family: "Open Sans";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 146%; /* 35.04px */
 }
 
 /* Accordion */

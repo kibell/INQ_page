@@ -20,6 +20,7 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+      min-height: 500px;
 }
 
 
@@ -54,8 +55,7 @@ box-shadow: 9px 8px 5.2px -3px rgba(0, 0, 0, 0.25);
 
 > div:first-of-type {
     background: $primary;
-    
-    border-radius: 0;
+    border-radius: 0 ;
     justify-content: center;
 }
 
@@ -75,6 +75,8 @@ box-shadow: 9px 8px 5.2px -3px rgba(0, 0, 0, 0.25);
    top: -2rem;
   border-radius: 20px;
    width: auto;
+   
+     height: 170px;
 }
 
 > div:not(:first-of-type) {
@@ -82,9 +84,7 @@ box-shadow: 9px 8px 5.2px -3px rgba(0, 0, 0, 0.25);
     border-right: 1px solid #E0E0E0;
   }
 
-  > div:first-of-type {
-    background: $primary;
-    justify-content: center;
+   div:first-of-type {
     border-radius: 20px 0 0 20px;
 }
 
@@ -127,7 +127,7 @@ border-radius:60px ;
        top: none;
       left: none;
 
-    @media  only screen and (min-width: $breakpoint-lg) {
+    @media  only screen and (min-width: $breakpoint-2xl) {
        position: absolute;
       top: -17rem;
     left: 5rem;
@@ -387,6 +387,21 @@ justify-content: center;
   object-fit: cover;
 }
 
+
+.testimonial-image {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.p-head {
+  color: #FFFFFE;
+font-family: "Open Sans";
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 146%; /* 35.04px */
+}
 
 /* Accordion */
 
