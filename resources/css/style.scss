@@ -12,7 +12,7 @@
 
 
 body {
-  font-family: "Inter", sans-serif;
+  font-family: "Inter";
 }
 
 .hero-section {
@@ -30,6 +30,7 @@ body {
 background: $heritage;
 color: $white;
 box-shadow: 9px 8px 5.2px -3px rgba(0, 0, 0, 0.25);
+min-height: 17rem;
 
 > * {
     color: $white;
@@ -407,7 +408,6 @@ justify-content: center;
 }
 .p-head {
   color: #FFFFFE;
-font-family: "Open Sans";
 font-size: 24px;
 font-style: normal;
 font-weight: 400;
