@@ -216,7 +216,7 @@ h3 {
 p,
 li {
   font-family: "Inter", sans-serif;
-  font-size: 1rem;
+  font-size: 18px;
   font-weight: 400;
   color: #666666;
   line-height: 1.5;
@@ -271,6 +271,10 @@ body {
 }
 .brdr-theme-bg-blue > * {
   color: #ffffff;
+}
+
+.content-wrapper {
+  font-size: 18px;
 }
 
 .spacer {
@@ -373,8 +377,8 @@ body {
 }
 
 img.position-absolute.checkmark-icon {
-  top: -4rem;
-  left: -3rem;
+  top: 0;
+  left: 0;
 }
 
 #degrees {
